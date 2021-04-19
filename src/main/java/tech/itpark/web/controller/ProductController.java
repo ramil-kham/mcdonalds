@@ -26,8 +26,8 @@ public class ProductController {
         return manager.save(dto);
     }
 
-    @RequestMapping("/{id}/remove")
-    public void removeById(@PathVariable long id) {
-        manager.removeById(id);
-    }
+ //   @RequestMapping("/{id}/remove")
+ //   public void removeById(@PathVariable long id) {
+  //      manager.removeById(id);
+  //  }
 }

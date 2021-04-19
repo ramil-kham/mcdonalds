@@ -93,7 +93,7 @@ WHERE id = ?
             throw new RuntimeException(e);
         }
     }
-
+/*
     public void removeById(long id) {
         try(
                 Connection connection = dataSource.getConnection();
@@ -108,5 +108,5 @@ WHERE id = ?
             }
 
     }
-
+*/
 }
